@@ -26,11 +26,18 @@ Once you can explain the solution you might try to write a computer program to s
 
 ####How many trips from shore to shore must the boat take?
 ```
-answer here
+101
 ```
 ####Explain you algorithm here:
 ```
-answer here
+1) 2 children cross the river in the boat
+2) 1 goes back and leaves the other on the other side
+3) 1 adult crosses by himself and leave the child on the shore
+4) 1 child goes back over to the other side
+5) It now repeats itself, so i know that it takes 4 steps for 1 adult to cross
+6) So you do 4*25 to work out the number of trips each solider will take which is 100
+7) However to get both children back into the boat the boat must make an extra trip so we add 1, so the total is 101.
+8) You can write this as S=Soldier C=children 4*S + 1C
 ```
 
 ##Extension
